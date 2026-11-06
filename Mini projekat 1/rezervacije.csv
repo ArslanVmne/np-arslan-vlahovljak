@@ -1,0 +1,8 @@
+id,gost,soba,dolazak,odlazak,cijena_noci,status
+1,Marko Petrovic,101,2026-11-10,2026-11-13,45.00,potvrdjena
+2,Ana Jovanovic,102,2026-11-11,2026-11-12,60.00,potvrdjena
+3,Ivan Kovac,103,2026-11-12,2026-11-19,50.00,otkazana
+4,Mia Savic,104,2026-11-15,2026-11-20,55.50,potvrdjena
+5,Nikola Vukovic,105,2026-11-18,2026-11-17,40.00,potvrdjena
+6,Lena Radonjic,106,2026-11-20,2026-11-22,abc,potvrdjena
+7,Petar Boskovic,107,2026-11-21,2026-11-28,70.00,potvrdjena
