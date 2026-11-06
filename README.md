@@ -16,4 +16,4 @@ Format odgovora: kod, pytest testovi i kratko obrazloženje rješenja
 
 **Obrazloženje:**
 
-Jedino što sam ja uočio kao nedostatak jeste nedostatak same liste cijena koju sam dodao sam i ispisivanje rezultata u konzoli da bih odmah provjerio da li radi. To je navika od programiranja na koje sam navikao, jer pytestove nisam ranije koristio za pet projekte.
+Jedino što sam ja uočio kao nedostatak jeste nedostatak same liste cijena koju sam dodao sam (kao Python listu) i ispisivanje rezultata u konzoli da bih odmah provjerio da li radi. Moze i lista naravno da se nalazi u fajlu, ali mi je to bilo najlakse za provjeru.
