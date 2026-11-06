@@ -10,7 +10,7 @@ Kontekst: Python 3.13. Radimo na malom web shopu za prodaju sportske opreme. Cij
 
 Zadatak: napiši Python funkciju calculate_average_price(prices) koja vraća prosječnu cijenu zaokruženu na 2 decimale.
 
-Ograničenja: samo standardna biblioteka, type hints, obrada grešaka (prazna lista, neispravni podaci).
+Ograničenja: samo standardna biblioteka i obrada grešaka (prazna lista, neispravni podaci).
 
 Format odgovora: kod, pytest testovi i kratko obrazloženje rješenja
 
