@@ -4,8 +4,10 @@ Alat: Claude Code. Za svaki korak: moj prompt, šta je AI predložio ili uradio.
 
 ## Tok rada
 
-1. **Prompt:** 
-   Radim fakultetski zadatak iz softverskih šablona (design patterns) u Pythonu. Ovo je početak mog naprednog programiranja, zato mi treba JEDNOSTAVAN, ŠKOLSKI kod koji mogu u potpunosti da razumijem i odbranim na usmenom. Ne usložnjavaj.
+1. **Prompt** (u cjelosti):
+
+```text
+Radim fakultetski zadatak iz softverskih šablona (design patterns) u Pythonu. Ovo je početak mog naprednog programiranja, zato mi treba JEDNOSTAVAN, ŠKOLSKI kod koji mogu u potpunosti da razumijem i odbranim na usmenom. Ne usložnjavaj.
 
 ZADATAK:
 1. Factory za ML modele (linearni, stablo odlučivanja, kNN iz scikit-learn)
@@ -37,6 +39,8 @@ NAČIN RADA:
 2. Radi jedan šablon po jedan. Nakon svakog napiši 3 do 4 rečenice objašnjenja običnim jezikom: šta je problem, kako šablon to rješava, gdje je u kodu.
 3. Nakon svakog koraka pokreni pytest.
 4. Na kraju mi postavi 5 pitanja kakva bi profesor mogao postaviti na usmenom, da provjerim da li razumijem.
+```
+
    **AI:** Plan sa strukturom fajlova i redoslijedom rada.
 2. **Prompt:** Folder je "Mini Projekat 2", a AI_LOG je u redu.
    **AI:** Napravio folder i `factory.py` s prvim testovima.
