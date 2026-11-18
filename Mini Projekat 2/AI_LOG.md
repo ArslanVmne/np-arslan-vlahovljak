@@ -4,7 +4,39 @@ Alat: Claude Code. Za svaki korak: moj prompt, šta je AI predložio ili uradio.
 
 ## Tok rada
 
-1. **Prompt:** Zadatak (pet šablona, iris, najmanje 5 testova, README s Mermaid dijagramom, AI_LOG) uz pravila jednostavnosti i uslov da prvo dobijem plan.
+1. **Prompt:** 
+   Radim fakultetski zadatak iz softverskih šablona (design patterns) u Pythonu. Ovo je početak mog naprednog programiranja, zato mi treba JEDNOSTAVAN, ŠKOLSKI kod koji mogu u potpunosti da razumijem i odbranim na usmenom. Ne usložnjavaj.
+
+ZADATAK:
+1. Factory za ML modele (linearni, stablo odlučivanja, kNN iz scikit-learn)
+2. Strategy za metrike i Observer za praćenje treninga
+3. Template Method za tok eksperimenta i Decorator za mjerenje vremena
+4. Demonstracija na skupu iris, najmanje pet pytest testova
+5. README sa Mermaid dijagramom klasa i opisom upotrebe AI alata
+
+OCJENJIVANJE: primjena šablona (2), kvalitet koda i testovi (2), dijagram i README (1), dokumentovan rad sa AI (1).
+
+PRAVILA JEDNOSTAVNOSTI:
+- Python i scikit-learn, pytest. Bez dodatnih biblioteka.
+- Što manje fajlova i klasa. Svaki šablon u svom malom fajlu, najviše 30 do 50 linija po fajlu.
+- Bez naprednih stvari (bez metaklasa, generika, async, složenog nasljeđivanja). Samo obične klase, funkcije i apstraktne klase (abc).
+- Jasna imena na engleskom, kratki komentari na srpskom/bosanskom koji objašnjavaju ŠTA radi svaki šablon.
+- Svaki šablon mora biti lako prepoznatljiv:
+  * Factory: jedna funkcija ili klasa koja na osnovu imena ("linear", "tree", "knn") vraća model.
+  * Strategy: nekoliko metrika (npr. accuracy, f1) sa istim interfejsom, bira se pri pozivu.
+  * Observer: trening obavještava jednog ili dva posmatrača (npr. ispis u konzolu i čuvanje u listu).
+  * Template Method: osnovna klasa sa fiksnim redoslijedom koraka (učitaj podatke, treniraj, evaluiraj, ispiši), podklasa mijenja samo jedan korak.
+  * Decorator: dekorator @timed koji mjeri vrijeme funkcije.
+- Najmanje 5 pytest testova, svaki kratak i jasan, jedan test za jednu stvar.
+- demo.py na iris skupu koji pokazuje sve šablone zajedno.
+- README.md: kratak opis, kako pokrenuti, Mermaid dijagram klasa (jednostavan), i odjeljak o korišćenju AI alata.
+- AI_LOG.md: bilježi svaki moj prompt, šta je AI predložio i šta sam ja promijenio ili provjerio.
+
+NAČIN RADA:
+1. Prvo mi u 5 do 10 rečenica predloži plan i strukturu fajlova. Čekaj potvrdu.
+2. Radi jedan šablon po jedan. Nakon svakog napiši 3 do 4 rečenice objašnjenja običnim jezikom: šta je problem, kako šablon to rješava, gdje je u kodu.
+3. Nakon svakog koraka pokreni pytest.
+4. Na kraju mi postavi 5 pitanja kakva bi profesor mogao postaviti na usmenom, da provjerim da li razumijem.
    **AI:** Plan sa strukturom fajlova i redoslijedom rada.
 2. **Prompt:** Folder je "Mini Projekat 2", a AI_LOG je u redu.
    **AI:** Napravio folder i `factory.py` s prvim testovima.
